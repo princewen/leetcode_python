@@ -31,7 +31,7 @@ class Solution(object):
             z = z * 10 + y % 10
             y /= 10
         z = z if x > 0 else -z
-        if z > 2147483647 or z < -2147483648:
+        if z > 0xffffffff or z < -0xffffffff:
             return 0
         else:
             return z
