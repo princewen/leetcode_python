@@ -16,7 +16,7 @@ Your function should return length = 2, with the first two elements of nums bein
 """
 
 """ my solution 
-借鉴26题的思路，直接遍历，由于前面的已经遍历过，可以直接替换屌元素的值
+借鉴26题的思路，直接遍历，由于前面的已经遍历过，可以直接替换掉元素的值
 """
 
 
