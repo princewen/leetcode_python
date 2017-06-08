@@ -3,7 +3,7 @@ Given a singly linked list, determine if it is a palindrome.
 """
 """
 画图理解更好，使用两个指针，当快的指针跑到头的时候，跑的慢的指针刚好到一半，随后将后一半元素的指向改变，随后循环判断元素是否相等
-相当于先把两个
+相当于先把一个链表分成两个
 """
 
 # Definition for singly-linked list.
