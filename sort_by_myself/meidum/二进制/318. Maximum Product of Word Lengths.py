@@ -21,4 +21,5 @@ Credits:
 Special thanks to @dietpepsi for adding this problem and creating all test cases.
 
 """
-"""先用二进制保存"""
+"""先将每个单词保存成一个二进制数，二进制数为26位，如果对应位上的字母出现了，就是1，否则为0，这样用按位与运算就很容易判断两个单词
+是否包含相同的字母"""
